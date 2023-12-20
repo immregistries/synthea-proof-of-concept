@@ -13,6 +13,9 @@ public class PatientTestService {
     public void createPatient(int i) {
         Generator.GeneratorOptions options = new Generator.GeneratorOptions();
         options.population = i;
+        options.ageSpecified=true;
+        options.minAge = 1;
+        options.maxAge = 1;
         options.enabledModules = new ArrayList<>();
         options.enabledModules.add(Immunizations.IMMUNIZATIONS);
         Config.set("exporter.hospital.fhir.export", "false");

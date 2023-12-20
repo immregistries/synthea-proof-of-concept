@@ -1,0 +1,14 @@
+<company>
+    <staff id="0001">
+        <firstname>Francois</firstname>
+        <lastname>Mérat</lastname>
+        <class>3A</class>
+        <salary currency="USD">100000</salary>
+    </staff>
+    <staff id="0002">
+        <firstname>Cloée</firstname>
+        <lastname>Hareau</lastname>
+        <class>3A</class>
+        <salary currency="INR">200000</salary>
+    </staff>
+</company>
